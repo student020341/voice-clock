@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="Streamer Clock" />
+        <title>Streamer Clock</title>
+    </head>
+    <body>
+        <div>
+            <!-- basic -->
+            <p>local time</p>
+            <p>streamer</p>
+            <select id="streamer-select">
+                <option>murdercrumpet</option>
+                <option>vore</option>
+            </select>
+            <br />
+            <p id="clock">--</p>
+            <span id="speak-button" class="click">speak</span>
+            <br />
+            <!-- custom -->
+            <span id="custom-button" class="space-top click orange">custom time</span>
+            <div id="custom-controls" class="space-top">
+                <div>
+                    <select id="hours-o"></select>
+                    <span>Hours</span>
+                </div>
+                <div>
+                    <select id="minutes-o"></select>
+                    <span>Minutes</span>
+                </div>
+                <div>
+                    <select id="ampm-o">
+                        <option>AM</option>
+                        <option>PM</option>
+                    </select>
+                </div>
+            </div>
+            <!-- auto -->
+            <div>
+                <span id="auto-announce" class="space-top click orange">announce new hour automatically</span>
+                <p id="announce-text"></p>
+            </div>
+        </div>
+    </body>
+    <!-- -->
+    <script type="module" src="/index.js"></script>
+</html>

@@ -1,0 +1,36 @@
+$greyBackground: #222;
+$greyColor: #AAA;
+$blueNav: #AAF;
+
+body {
+    background: $greyBackground;
+    color: $greyColor;
+    font-family: sans-serif;
+}
+
+.click {
+    cursor: pointer;
+    color: $blueNav;
+    padding: 4px;
+
+    &.orange {
+        color: #ff962a;
+    }
+
+    &.green {
+        color: #00e200;
+    }
+}
+
+#custom-controls, #announce-text {
+    display: none;
+
+    &.show {
+        display: block;
+    }
+}
+
+.space-top {
+    margin-top: 16px;
+    display: inline-block;
+}

@@ -1,0 +1,73 @@
+#!/bin/bash
+
+# NOTE - saving this for future reference, but audio files removed since it would basically be a duplicate of bundle.go
+
+# audio
+fyne bundle audio/0.ogg > bundle.go
+fyne bundle -append audio/1.ogg >> bundle.go
+fyne bundle -append audio/10.ogg >> bundle.go
+fyne bundle -append audio/11.ogg >> bundle.go
+fyne bundle -append audio/12.ogg >> bundle.go
+fyne bundle -append audio/13.ogg >> bundle.go
+fyne bundle -append audio/14.ogg >> bundle.go
+fyne bundle -append audio/15.ogg >> bundle.go
+fyne bundle -append audio/16.ogg >> bundle.go
+fyne bundle -append audio/17.ogg >> bundle.go
+fyne bundle -append audio/18.ogg >> bundle.go
+fyne bundle -append audio/19.ogg >> bundle.go
+fyne bundle -append audio/2.ogg >> bundle.go
+fyne bundle -append audio/20.ogg >> bundle.go
+fyne bundle -append audio/21.ogg >> bundle.go
+fyne bundle -append audio/22.ogg >> bundle.go
+fyne bundle -append audio/23.ogg >> bundle.go
+fyne bundle -append audio/24.ogg >> bundle.go
+fyne bundle -append audio/25.ogg >> bundle.go
+fyne bundle -append audio/26.ogg >> bundle.go
+fyne bundle -append audio/27.ogg >> bundle.go
+fyne bundle -append audio/28.ogg >> bundle.go
+fyne bundle -append audio/29.ogg >> bundle.go
+fyne bundle -append audio/3.ogg >> bundle.go
+fyne bundle -append audio/30.ogg >> bundle.go
+fyne bundle -append audio/31.ogg >> bundle.go
+fyne bundle -append audio/32.ogg >> bundle.go
+fyne bundle -append audio/33.ogg >> bundle.go
+fyne bundle -append audio/34.ogg >> bundle.go
+fyne bundle -append audio/35.ogg >> bundle.go
+fyne bundle -append audio/36.ogg >> bundle.go
+fyne bundle -append audio/37.ogg >> bundle.go
+fyne bundle -append audio/38.ogg >> bundle.go
+fyne bundle -append audio/39.ogg >> bundle.go
+fyne bundle -append audio/4.ogg >> bundle.go
+fyne bundle -append audio/40.ogg >> bundle.go
+fyne bundle -append audio/41.ogg >> bundle.go
+fyne bundle -append audio/42.ogg >> bundle.go
+fyne bundle -append audio/43.ogg >> bundle.go
+fyne bundle -append audio/44.ogg >> bundle.go
+fyne bundle -append audio/45.ogg >> bundle.go
+fyne bundle -append audio/46.ogg >> bundle.go
+fyne bundle -append audio/47.ogg >> bundle.go
+fyne bundle -append audio/48.ogg >> bundle.go
+fyne bundle -append audio/49.ogg >> bundle.go
+fyne bundle -append audio/5.ogg >> bundle.go
+fyne bundle -append audio/50.ogg >> bundle.go
+fyne bundle -append audio/51.ogg >> bundle.go
+fyne bundle -append audio/52.ogg >> bundle.go
+fyne bundle -append audio/53.ogg >> bundle.go
+fyne bundle -append audio/54.ogg >> bundle.go
+fyne bundle -append audio/55.ogg >> bundle.go
+fyne bundle -append audio/56.ogg >> bundle.go
+fyne bundle -append audio/57.ogg >> bundle.go
+fyne bundle -append audio/58.ogg >> bundle.go
+fyne bundle -append audio/59.ogg >> bundle.go
+fyne bundle -append audio/6.ogg >> bundle.go
+fyne bundle -append audio/7.ogg >> bundle.go
+fyne bundle -append audio/8.ogg >> bundle.go
+fyne bundle -append audio/9.ogg >> bundle.go
+fyne bundle -append audio/AM.ogg >> bundle.go
+fyne bundle -append audio/Current_Time.ogg >> bundle.go
+fyne bundle -append audio/Dink_Donk.ogg >> bundle.go
+fyne bundle -append audio/Its.ogg >> bundle.go
+fyne bundle -append audio/PM.ogg >> bundle.go
+fyne bundle -append audio/hundred.ogg >> bundle.go
+fyne bundle -append audio/oclock.ogg >> bundle.go
+fyne bundle -append audio/oh.ogg >> bundle.go
